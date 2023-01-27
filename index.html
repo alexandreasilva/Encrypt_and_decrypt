@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./img/alura.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Text Encoder and Decoder</title>
+</head>
+
+<body>
+    <main class="main-container">
+        <header class="header">
+            <img src="./img/alura.png" alt="logo alura">
+        </header>
+
+        <div class="input-container">
+            <div class="input">
+                <textarea id="input-text" placeholder="enter your text here..."></textarea>
+                <p><img src="./img/exclamation.png">Only lowercase letters and no accents.</p>
+            </div>
+            <div id="output">
+                <img src="./img/result.png" alt="search result">
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="btn-container">
+                <button onclick="encrypt()" class="btn-encrypt">Encrypt</button>
+                <button onclick="decrypt()" class="btn-decrypt">Decrypt</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="baseboard">
+        <div>
+            <a href="https://www.linkedin.com/in/alexandre-almeida-silva/" target="_blank"><img src="./img/linkedin.png"
+                    alt="linkedin"></a>
+            <a href="https://github.com/alexandreasilva" target="_blank"><img src="./img/github.png" alt="github"></a>
+        </div>
+        <div class="developer">
+            <p>&#169; Developed by Alexandre Almeida Silva</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
